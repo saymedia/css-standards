@@ -22,7 +22,13 @@ We follow a strict naming conventions for our modular CSS classes. If you’ve n
 
 * **Module Component** — `.m-module-name--component` — Components are the child elements inside a self contained module. For example, `.m-story--copy` is the class name for the body text that is one part of the story module.
 
-* **Module Modifier** — `.mm-modifier-name` — This is used for small chainable changes to a module. It’s possible to combine multiple modifiers with a module. An example is `.mm-has-svg`, a generic modifier we give to elements that contain svg.
+* **Module Modifier** — We have two types of module modifiers: global and namespaced.
+
+	* **Global Modifiers** — `.mm-modifier-name` — This is used for small chainable changes to a module. It’s possible to combine multiple modifiers with a module. In general, these rules are pretty universal so they can be reused across different types of modules. An example is `.mm-has-svg`, a generic modifier we give to elements that contain svg.
+
+	 _Note: In the CMS, we call these **Helper** classes and use the prefix `.h-` to distinguish from scoped module modifiers. For example, `.h-uppercase` would change an element to all-caps._
+	 
+	* **Namespaced Modifiers** — `.mm-module-name--modifier-name` — Contain rules that create a style variation of a module. Since they wouldn’t be useful elsewhere, we name them based on the module they’re intended for. An example is `.mm-brand-engagement--inverted`, which affects the colors of the brand engagement module.
 
 * **Layout** — `.l-layout-name` — Layout classes are exclusively used to define the positioning an element in a predefined way, such as full-bleed or breakout. They can even handle absolutely positioned elements like a modal or toaster. Used to define things like margins, position, or floats, but probably not padding and definitely not “visual” styles like color, background, etc. A good example of this is the wrapper class `.l-full-width` which is used as a parent class on any page of any content type that is meant to expand to full width.
 
