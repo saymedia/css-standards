@@ -99,9 +99,9 @@ These formatting rules should be reflected in a `.stylelintrc` file in the root 
 
 * Include a space after each comma in comma-separated property or function values, e.g., `rgba(255, 0, 0, .5)`.
 
-* Classes and variable names should be [lowercase and use hyphens](http://csswizardry.com/2010/12/css-camel-case-seriously-sucks/). No underscores or camelcase.
+* Class names should be [lowercase and use hyphens](http://csswizardry.com/2010/12/css-camel-case-seriously-sucks/). No underscores or camelcase.
 
-* Functions and mixin names should be lowercase and use underscores, to make them distinct from class names.
+* Functions, variables and mixin names should be lowercase and use underscores, to make them distinct from class names. No hyphens or camelcase.
 
 * Avoid shorthand syntax unless you’re explicitly setting all the available values, otherwise you may [inadvertently override a value](http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/) you didn’t intend to.
 
