@@ -126,7 +126,7 @@ These formatting rules should be reflected in a `.stylelintrc` file in the root 
 
     @include hyphenate(); // 2
 
-    @media only screen and (max-width: $screen-small) { // 3
+    @media only screen and (max-width: $screen_small) { // 3
         width: 100%;
     }
 
@@ -144,7 +144,7 @@ These formatting rules should be reflected in a `.stylelintrc` file in the root 
 
     margin-top: -20px !important; // 6
 
-    @media only screen and (min-width: $screen-large) {
+    @media only screen and (min-width: $screen_large) {
         margin-top: -30px !important; // 7
 
         .m-feed--loader { // 8
@@ -183,18 +183,18 @@ These formatting rules should be reflected in a `.stylelintrc` file in the root 
         @include svg_sizer();
     }
 
-    @media only screen and (min-width: $screen-medium) { // 2d
+    @media only screen and (min-width: $screen_medium) { // 2d
         width: 100%;
     }
 
-    @media only screen and (min-width: $screen-large) { // 2d
+    @media only screen and (min-width: $screen_large) { // 2d
         margin-top: $length * 2; // 4
     }
 
     .m-feed--loader { // 2e
         margin: 0;
 
-        @media only screen and (min-width: $screen-large) {
+        @media only screen and (min-width: $screen_large) {
             display: none;
         }
     }
