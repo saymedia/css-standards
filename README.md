@@ -205,7 +205,7 @@ These formatting rules should be reflected in a `.stylelintrc` file in the root 
 
 * Use `$variables` whenever possible, especially for repeated colors and numbers. This creates a single source of truth for faster updates.
 
-* Don’t declare Z-index values as raw numbers. Instead, use a Sass list of z-indexes and a function to retrieve named z-index values. This makes it easy to adjust the stacking order or add new values. ([learn more](https://www.smashingmagazine.com/2014/06/sassy-z-index-management-for-complex-layouts/))
+* Don’t declare z-index values as raw numbers. Instead, use a Sass list of z-indexes and a function to retrieve named z-index values. This makes it easy to adjust the stacking order or add new values. ([learn more](https://www.smashingmagazine.com/2014/06/sassy-z-index-management-for-complex-layouts/))
 
 * Don’t override styles for one module inside another. Modules, by definition, should be self-contained. Use a module modifier instead. This avoids any cross-contamination and specificity problems, and the new modifier can be reused elsewhere. ([learn more](http://simurai.com/blog/2015/05/11/nesting-components))
 
