@@ -75,7 +75,7 @@ This can get a bit confusing sometimes. When it doubt, remember that the goal is
 
 ## Formatting Rules
 
-These formatting rules should be reflected in a `.stylelintrc` file in the root of your project. (Our standard `.stylelintrc` file can be found in this repo.) This file can be read by your text editor (for example, see the SublimeLinter project), or run as part of the existing project lint tests to enforce our house style.
+These formatting rules should be reflected in a `.stylelintrc` file in the root of your project. (Our standard `.stylelintrc` file can be found in [stylelint-config-saymedia](https://github.com/saymedia/stylelint-config-saymedia).) This file can be read by your text editor (for example, see the SublimeLinter project), or run as part of the existing project lint tests to enforce our house style.
 
 * Place each selector and declaration on their own line.
 
