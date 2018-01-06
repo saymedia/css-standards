@@ -259,6 +259,8 @@ In addition, here is a small list of sites, documents, and books that informed t
 
 * [SASS Guidelines](https://sass-guidelin.es/) by Hugo Giraudel
 
+* [Sass Style Guide](https://css-tricks.com/sass-style-guide/) by Chris Coyier
+
 * [BEM](https://en.bem.info/methodology/) by Yandex
 
 * [MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by Harry Roberts
